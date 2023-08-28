@@ -180,13 +180,6 @@
   display: none;
 }
 
-.sidebar-part-title {
-  font-size: 0.9rem;
-  padding: 0 1rem;
-  margin-top: 1rem;
-  color: #999999;
-}
-
 .sidebar-link {
   font-size: 0.8rem;
   margin-top: 1rem;
@@ -427,7 +420,7 @@ video{
 input[type=range] {
 	position: absolute;
 	pointer-events: none;
-	/* -webkit-appearance: none; */
+	-webkit-appearance: none;
 	z-index: 2;
 	height: 10px;
 	width: 100%;
@@ -443,7 +436,80 @@ input[type=range]::-webkit-slider-thumb {
 	-webkit-appearance: none;
 }
 
+/* Contact us Start */
+.contact-us-mainBody{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+background-image: url("/assets/img/back-ground.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 100000;
 
+}
+.contact-us-wrapper{
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us{
+  width: 800px;
+  height: 800px;
+  justify-content: center;
+}
+.contact-us h1{
+  color: #ffffff;
+  font-size: 3rem;
+  width: 100%;
+  font-weight: 100;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+.contact-us input{
+  color: #ffffff;
+  width: 70%;
+  height: 3rem;
+  border: none;
+  padding: .8rem;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  margin-bottom: 1rem;
+  background: transparent;
+}
+.contact-us input::placeholder{
+  color: #ffffff;
+}
+.contact-us textarea{
+  color: #ffffff;
+  width: 70%;
+  padding: .8rem .3rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  background: transparent;
+}
+.contact-us textarea::placeholder{
+  color: #ffffff;
+}
+.contact-us button{
+  width: 8rem;
+  text-align: center;
+  padding: .4rem 0;
+  border: none;
+  border-radius: 10px;
+  background: black;
+  opacity: .5;
+  color: white;
+  margin-left: 440px;
+}
+.contact-us button:focus{
+  outline: none;
+}
+/* Contact us End */
 
 
 
