@@ -74,6 +74,21 @@
   width: 2rem;
   text-align: center;
 }
+.login-item{
+  display:block ;
+  padding: 0 .5rem;
+}
+.login-item:hover{
+  color: #fe8a7d;
+}
+.login-item a{
+  text-decoration: none;
+  color: #000000;
+}
+.login-item a:hover{
+  color: #fe8a7d;
+
+}
 .search-area-section{
  margin-left: auto;
  margin-right: auto;
