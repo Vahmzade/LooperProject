@@ -24,8 +24,8 @@
       </section>
     </section>
     <section id="body-header" class="body-header">
-      <section class="d-flex justify-content-between">
-        <section class="search-area-section">
+      <section class="d-flex justify-content-end">
+        <section class="search-area-section d-none">
           <span class="m-5">
             <span id="search-area" class="search-area d-none">
               <i id="search-area-hide" class="fas fa-times pointer"></i>
@@ -47,10 +47,10 @@
                   <input type="email" placeholder="Email" class="user-info">
                   <input type="password" placeholder="Password" class="user-info"">
                   <button class=" user-info-btn p-2" type="submit" id="btn-signup">Login</button>
-                  <a href="signUp.html">
+                  <a href="singUp.html">
                     <button class=" user-info-btn mx-2 p-2" type="submit" id="btn-signup">Sign Up</button>
                   </a>
-                  <span class="loginRememberMe login-item " >
+                  <span class="loginRememberMe login-item ">
                     <input class="pointer" id="rememberMe" type="checkbox">
                     <label class="pointer" for="rememberMe"> Remember Me </label>
                   </span>
@@ -67,9 +67,6 @@
 
       </section>
     </section>
-
-
-
   </header>
   <section class="body-container">
     <aside id="sidebar" class="sidebar">
@@ -80,16 +77,6 @@
             <i class="fas fa-home"></i>
             <span>HOME</span>
           </a>
-          <section class="sidebar-group-link">
-            <section class="sidebar-dropdown-toggle">
-              <i class="fas fa-music icon"></i>
-              <span>Play List</span>
-              <i class="fas fa-angle-right angle"></i>
-            </section>
-            <section class="sidebar-dropdown">
-              <a href="addSong.html">Add New Song</a>
-            </section>
-          </section>
           <section class="sidebar-group-link">
             <section class="sidebar-dropdown-toggle">
               <i class="fas fa-tv icon"></i>
@@ -129,19 +116,40 @@
         </section>
       </section>
     </aside>
-
     <section id="main-body" class="main-body">
-      <section class="contact-us-mainBody">
-        <section class="contact-us-wrapper ">
-          <section class="contact-us">
-            <h1>We Hear You!</h1>
-            <input id="conactUsName" type="text" placeholder="Name" required>
-            <input id="contactUsEmail" type="Email" placeholder="Your Email" required>
-            <textarea name="" id="contactUsTextArea" placeholder="Type Your Message Here ..." cols="30" rows="10"
-              required></textarea>
-            <button id="contacUsbtn" type="submit">Send</button>
-          </section>
-        </section>
+      <section class="signUp-container">
+        <form action="">
+          <div class="signUp-form-header text-center">
+            <h1>SIGN UP</h1>
+          </div>
+          <div>
+            <label for="signUp-user"><i class="fas fa-user"></i></label>
+            <input class="signUp-input" id="signUp-user" type="text" placeholder="User Name :" required>
+          </div>
+          <div>
+            <label for="signUp-email"><i class="fas fa-envelope"></i></label>
+            <input class="signUp-input" id="signUp-email" type="email" placeholder="Email :" required>
+          </div>
+          <div>
+            <label for="signUp-password"><i class="fas fa-lock"></i></label>
+            <input class="signUp-input" id="signUp-password" type="password" placeholder="Password :" required>
+          </div>
+          <div>
+            <label for="signUp-Repassword"><i class="fas fa-lock"></i></label>
+            <input class="signUp-input" id="signUp-Repassword" type="password" placeholder="Confirm Password:" required>
+          </div>
+          <div>
+            <input class="signUp-checkbox" id="signUp-checkbox" type="checkbox" required>
+            <label for="signUp-checkbox"> I Agree To The Terms & Conditions</label>
+          </div>
+          <div>
+            <button class="signUp-btn">SIGN UP</button>
+          </div>
+          <div>
+            <label for="signUp-signin">Already Have An Account? </label>
+            <a href="signIn.html">Sign In</a>
+          </div>
+        </form>
       </section>
     </section>
   </section>

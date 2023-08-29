@@ -171,9 +171,18 @@
   .addSong-table input,textarea {
     width: 100% !important;
   }
+  .signIn-container div{
+    width: 60% !important;
+  }
+}
+@media only screen and (max-width: 1200.98px) {
+  .signIn-container div{
+    width: 40% ;
+  }
 }
 
 /* @media Sizing End */
+/* ------------------------------------------------------------------------- */
 /* SideMenu  Start*/
 
 .sidebar {
@@ -626,3 +635,121 @@ input[type="range"]::-webkit-slider-thumb {
 }
 /* Add Song End */
 /* ----------------------------------------------------------------------------- */
+/* Sign Up Start */
+.signUp-container{
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp-container form{
+  background: rgba(0, 0, 0, .4);
+}
+.signUp-container div{
+  width: 100%;
+  height: 3rem;
+  margin-bottom: .5rem;
+  padding: .3rem;
+}
+.signUp-container h1{
+  color: #ffffff;
+  font-weight: 400;
+  opacity: .8;
+}
+.signUp-input{
+ width: 80%;
+ color: #f7f7f7;
+ font-size: large;
+ border: none;
+ outline: none;
+ background: transparent;
+ border-bottom: 1px solid #f7f7f7;
+ padding: .4rem ;
+}
+.signUp-container form input:focus{
+  outline: none;
+}
+.signUp-container form input::placeholder{
+  color: #f7f7f7;
+}
+.signUp-container form label{
+color: #f7f7f7;
+padding: .2rem;
+}
+.signUp-btn{
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  
+}
+.signUp-container a{
+ text-decoration: none;
+ color: #f7f7f7;
+ font-weight: 400;
+}
+.signUp-container a:hover{
+  color: #fe8a7d;
+}
+/* Sign Up End */
+/* -------------------------------------------------------------------------------- */
+/* Sign In Start */
+.signIn-container{
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signIn-container form{
+  width: 100%;
+  height: 80dvh;
+  background: rgba(0, 0, 0, .4);
+}
+.signIn-container div{
+  width: 25%;
+  height: 3rem;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.signIn-container h1{
+  color: #ffffff;
+  font-weight: 400;
+  opacity: .8;
+}
+.signIn-input{
+ width: 100%;
+ color: #f7f7f7;
+ font-size: large;
+ border: none;
+ outline: none;
+ background: transparent;
+ border-bottom: 1px solid #f7f7f7;
+ padding: .4rem ;
+}
+.signIn-container form input:focus{
+  outline: none;
+}
+.signIn-container form input::placeholder{
+  color: #f7f7f7;
+}
+.signIn-container form label{
+color: #f7f7f7;
+padding: .2rem;
+}
+.signIn-btn{
+  border: none;
+  width: 35%;
+  border-radius: 10px;
+  
+}
+.signIn-container a{
+ text-decoration: none;
+ color: #f7f7f7;
+ font-weight: 400;
+}
+.signIn-container a:hover{
+  color: #fe8a7d;
+}
+/* Sign In End */
+/* ------------------------------------------------------------------------------------- */
