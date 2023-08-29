@@ -50,7 +50,7 @@
                   <a href="singUp.html">
                     <button class=" user-info-btn mx-2 p-2" type="submit" id="btn-signup">Sign Up</button>
                   </a>
-                  <span class="loginRememberMe login-item " >
+                  <span class="loginRememberMe login-item ">
                     <input class="pointer" id="rememberMe" type="checkbox">
                     <label class="pointer" for="rememberMe"> Remember Me </label>
                   </span>
@@ -131,7 +131,37 @@
     </aside>
 
     <section id="main-body" class="main-body">
-
+      <section class="addSong-container ">
+        <div><h1 class="text-uppercase text-center mt-5 ">Add New Song </h1></div>
+        <section class="addSong-searcharea">
+              <input id="addSong-searchbar" class="addSong-searchbar " type="search" placeholder="Search ...">
+              <button class="addSong-searchbar-btn" type="button"><i class="fas fa-search"></i></button>
+        </section>
+        <section class="addSong-table">
+          <form action="">
+            <div class="form-group">
+              <label for="inputBand">What Band?</label>
+              <input class="form-control" id="inputBand" type="text" placeholder="Band Name">
+            </div>
+            <div class="form-group">
+              <label for="inputSongName">What Song?</label>
+              <input class="form-control" id="inputSongName" type="text" placeholder="Song Name">
+            </div>
+            <div class="form-group">
+              <label for="inputSongUrl">What Website?</label>
+              <input class="form-control" id="inputSongUrl" type="text" placeholder="Webpage Address">
+            </div>
+            <div class="form-group">
+              <label for="inputSongDescription">Explanation :</label>
+              <textarea class="form-control" id="inputSongDescription" placeholder="Descript It ..."
+               ></textarea>
+            </div>
+            <div class="btn-addSong-container">
+              <button id="addSong-table-btn" class="btn-addSong" type="submit">Submit</button>
+            </div>
+          </form>
+        </section>
+      </section>
     </section>
   </section>
 
